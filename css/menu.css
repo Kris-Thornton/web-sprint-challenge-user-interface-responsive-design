@@ -23,6 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+html {
+    color: grey;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -94,6 +98,38 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+.backBox {
+    background-color: black;
+    background: rgba(0, 4, 17, 0.8);
+}
+
+.theHead{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(225, 239, 230);
+}
+
+.theMenu, a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    color: rgb(225, 239, 230);
+    
+}
+
+
+.socialM, a {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+   
+    
 }
 
 /* spacer */
