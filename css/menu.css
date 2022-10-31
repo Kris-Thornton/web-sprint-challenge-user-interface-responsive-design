@@ -150,10 +150,64 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    /* background-color: rgb(0, 4, 17); */
+    background-color: rgba(0, 4, 17, 0.3);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+
+
+
+.sectionOne {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 100px 100px 100px
+
+}
+
+
+
+.drinks {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.appetizers {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.soupAndSalad {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.entrees {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.desserts {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer section */
